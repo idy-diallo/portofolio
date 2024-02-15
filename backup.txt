@@ -1,0 +1,37 @@
+<!-- start about -->
+		<div id="about" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
+						<h2><u>A propos</u></h2>
+						<h4>Développeur FrontEnd &AMP; BackEnd</h4>
+						<div class="_about">
+							<!-- <div>
+								<img src="./images/home-bg.jpg" alt="wde">
+							</div> -->
+							<div>
+								<p>Bonjour,</p>
+								<p>Je suis développeur web junior formé au College Universel de Montreal. Je suis
+									également
+									technicien
+									en programmation web,
+									j'ai eu l'ocasion de travailler sur un grand projets lors de ma soutenance pour
+									l'obtenssion de mon diplome universitaire.
+								</p>
+								<p>Fraichement diplomé au college universel ou on m'a formé plus coté pratique,
+									je me sens pret a me lancer au marché du travail.
+									Afin de renforcer mes compétences coté professionnelle.
+								</p>
+								<p>Ayant une base solide sur la gestion de projet, passionner par la technologie,
+									curieux et
+									pret a relever des défits, j'aimerai intégrer un poste de développeur web full
+									stack.
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end about -->

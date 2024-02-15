@@ -326,7 +326,8 @@ h5 {
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
-    background: #D43F52;
+    /* background: #D43F52; */
+    background: #706d6d;
     top: 0;
     left: 0;
     right: 0;
@@ -527,15 +528,28 @@ footer hr {
 
 .icon-list a {
     display: inline-block;
-    color: wheat;
+    color: white;
     padding: 7px 10px;
 }
 
 .icon-list a:hover {
     color: black;
     background-color: wheat;
+    text-decoration: none;
 }
 
 .container ._contact {
     margin-top: 200px;
+}
+
+.portfolio-overlay a {
+    color: #000000;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.portfolio-overlay a:hover {
+    background-color: white;
 }

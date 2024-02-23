@@ -31,6 +31,8 @@
 	<link rel="stylesheet" href="css/templatemo-style.css">
 	<!-- style -->
 	<link href="css/style.css" rel="stylesheet">
+	<!-- carousel -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 
 </head>
 
@@ -69,7 +71,7 @@
 						<p style="color:white; font-size: 1.2em;">Durant ma formation, j'ai appris à programmer des
 							applications web, console, desktop et mobile.</p>
 						<a href="#work" class="btn btn-default smoothScroll wow fadeInUp"
-							data-wow-delay="1s">Commencons</a>
+							data-wow-delay="1s">Commençons</a>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
@@ -145,6 +147,12 @@
 							<div>
 								<img src="./images/idy-6.jpg" alt="wde">
 							</div>
+							<ul class="social-icon">
+								<li><a href="https://www.linkedin.com/in/idy-diallo-382495248/"
+										class="fa fa-linkedin"></a>
+								</li>
+								<li><a href="https://github.com/idy-diallo/portofolio" class="fa fa-github"></a></li>
+							</ul>
 						</div>
 
 					</div>
@@ -204,18 +212,27 @@
 					<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
 						<h3>JavaScript</h3>
 						<div class="progress">
-							<div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="72" aria-valuemin="0"
 								aria-valuemax="100" style="width:72%">
 								<span>72%</span>
 							</div>
 						</div>
 					</div>
 					<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-						<h3>C/C++/C#</h3>
+						<h3>C/C++</h3>
 						<div class="progress">
-							<div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-								aria-valuemax="100" style="width:75%">
-								<span>75%</span>
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="73" aria-valuemin="0"
+								aria-valuemax="100" style="width:73%">
+								<span>73%</span>
+							</div>
+						</div>
+					</div>
+					<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+						<h3>C#</h3>
+						<div class="progress">
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="76" aria-valuemin="0"
+								aria-valuemax="100" style="width:76%">
+								<span>76%</span>
 							</div>
 						</div>
 					</div>
@@ -231,16 +248,25 @@
 					<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
 						<h3>Java/Java EE</h3>
 						<div class="progress">
-							<div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="80" aria-valuemin="0"
 								aria-valuemax="100" style="width:80%">
 								<span>80%</span>
 							</div>
 						</div>
 					</div>
 					<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-						<h3>React JS/Next JS</h3>
+						<h3>React JS</h3>
 						<div class="progress">
-							<div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+								aria-valuemax="100" style="width:75%">
+								<span>75%</span>
+							</div>
+						</div>
+					</div>
+					<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+						<h3>Next JS</h3>
+						<div class="progress">
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="75" aria-valuemin="0"
 								aria-valuemax="100" style="width:75%">
 								<span>75%</span>
 							</div>
@@ -256,7 +282,7 @@
 						</div>
 					</div>
 					<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-						<h3>Sql/Oracle</h3>
+						<h3>Sql/DBA Oracle</h3>
 						<div class="progress">
 							<div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0"
 								aria-valuemax="100" style="width:75%">
@@ -315,59 +341,155 @@
 				<div class="col-md-12">
 					<h2 class="wow bounce">Projet</h2>
 				</div>
+
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
-						<img src="images/films.jpg" class="img-responsive" alt="portfolio img">
-						<div class="portfolio-overlay">
-							<h4>Location de films</h4>
-							<h4>Team de 7</h4>
-							<h5>Auteur: Nathan, Carlson, Louis, Sarvenaz, Panauld, Colin et Moi</h5>
-							<a href="https://github.com/idy-diallo/location_films" class="fa fa-github">GitHub</a>
+						<div id="myCarousel" class="carousel" data-ride="carousel" data-interval="2000">
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/film-1.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/film-2.jpg" alt="Chicago" style="width:100%;">
+								</div>
+								<div class="portfolio-overlay">
+									<h4>Location de films</h4>
+									<h4>Team de 7</h4>
+									<h5>Auteur: Nathan, Carlson, Louis, Sarvenaz, Panauld, Colin et Moi</h5>
+									<h4>React-Java EE-HTML/CSS</h4>
+									<a href="https://github.com/idy-diallo/location_films"
+										class="fa fa-github">GitHub</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- </div> -->
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+					<div class="portfolio-thumb">
+						<div id="myCarousel2" class="carousel" data-ride="carousel" data-interval="2000">
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel2" data-slide-to="1"></li>
+								<li data-target="#myCarousel2" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/w17-1.png" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/w17-2.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/w17-3.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="portfolio-overlay">
+									<h4>Vente de produit de beauté</h4>
+									<h4>Team de 3</h4>
+									<h5>Auteur: Carlson, Sarvenaz et Moi</h5>
+									<h4>React-Java EE-HTML/CSS</h4>
+									<a href="https://github.com/idy-diallo/gestion-entrepise-de-vente"
+										class="fa fa-github">GitHub</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
-						<img src="images/beaute.png" class="img-responsive" alt="portfolio img">
-						<div class="portfolio-overlay">
-							<h4>Vente de produit de beauté</h4>
-							<h4>Team de 3</h4>
-							<h5>Auteur: Carlson, Sarvenaz et Moi</h5>
-							<a href="https://github.com/idy-diallo/gestion-entrepise-de-vente"
-								class="fa fa-github">GitHub</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/entreprise.jpg" class="img-responsive" alt="portfolio img">
-						<div class="portfolio-overlay">
-							<h4>Gestion d'une entreprise de commerce</h4>
-							<h4>Solo</h4>
-							<a href="https://github.com/idy-diallo/gestion-entrepise-de-vente"
-								class="fa fa-github">GitHub</a>
+						<div id="myCarousel3" class="carousel" data-ride="carousel" data-interval="2000">
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel3" data-slide-to="1"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/entreprise.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="portfolio-overlay">
+									<h4>Gestion d'une entreprise de commerce</h4>
+									<h4>Solo</h4>
+									<h4>PHP-HTML/CSS-Sql</h4>
+									<a href="https://github.com/idy-diallo/gestion-entrepise-de-vente"
+										class="fa fa-github">GitHub</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
-						<img src="images/costume.jpg" class="img-responsive" alt="portfolio img">
-						<div class="portfolio-overlay">
-							<h4>Vente de costume</h4>
-							<h4>Team de 2</h4>
-							<h5>Auteur: Colin et Moi</h5>
-							<a href="https://github.com/idy-diallo/Vente-de-costume" class="fa fa-github">GitHub</a>
+						<div id="myCarousel4" class="carousel" data-ride="carousel" data-interval="2000">
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel4" data-slide-to="1"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/costume.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/c-1.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/c-2.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/c-3.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/c-4.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="portfolio-overlay">
+									<h4>Vente de costume</h4>
+									<h4>Team de 2</h4>
+									<h5>Auteur: Colin et Moi</h5>
+									<h4>HTML/CSS-JavaScript</h4>
+									<a href="https://github.com/idy-diallo/Vente-de-costume"
+										class="fa fa-github">GitHub</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
-						<img src="images/chaussure.jpg" class="img-responsive" alt="portfolio img">
-						<div class="portfolio-overlay">
-							<h4>Vente de chaussure</h4>
-							<h4>Team de 2</h4>
-							<h5>Auteur: Nathan et Moi</h5>
-							<a href="https://github.com/idy-diallo/Vente-de-chaussure" class="fa fa-github">GitHub</a>
+						<div id="myCarousel4" class="carousel" data-ride="carousel" data-interval="2000">
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel4" data-slide-to="1"></li>
+								<li data-target="#myCarousel4" data-slide-to="2"></li>
+								<li data-target="#myCarousel4" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/chau-1.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/chau-2.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/chau-3.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="item">
+									<img src="images/chau-4.jpg" class="img-responsive" alt="portfolio img">
+								</div>
+								<div class="portfolio-overlay">
+									<h4>Vente de chaussure</h4>
+									<h4>Team de 2</h4>
+									<h5>Auteur: Nathan et Moi</h5>
+									<h4>HTML/CSS-JavaScript</h4>
+									<a href="https://github.com/idy-diallo/Vente-de-chaussure"
+										class="fa fa-github">GitHub</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -415,7 +537,8 @@
 					</p>
 					<hr>
 					<ul class="social-icon">
-						<li><a href="https://www.linkedin.com/in/idy-diallo-382495248/" class="fa fa-linkedin"></a></li>
+						<li><a href="https://www.linkedin.com/in/idy-diallo-382495248/" class="fa fa-linkedin"></a>
+						</li>
 						<li><a href="https://github.com/idy-diallo/portofolio" class="fa fa-github"></a></li>
 					</ul>
 				</div>
@@ -440,6 +563,9 @@
 	<script src="js/jquery.simple-text-rotator.js"></script>
 	<!-- custom -->
 	<script src="js/custom.js"></script>
+	<!-- carousel -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 
 </body>
 

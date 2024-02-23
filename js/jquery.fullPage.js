@@ -716,7 +716,7 @@
                             //allows to scroll to an active section and
                             //if the section is already active, we prevent firing callbacks
                             if($(SECTION_ACTIVE_SEL).is(currentSection)){
-                                isResizing = true;
+                                isResizing = false;
                             }
                             scrollPage(currentSection);
                             isResizing = false;
@@ -1023,7 +1023,6 @@
                 callback: callback,
                 isMovementUp: isMovementUp,
                 dest: dest,
-                dtop: dest.top,
                 yMovement: getYmovement(element),
                 anchorLink: element.data('anchor'),
                 sectionIndex: element.index(SECTION_SEL),
@@ -1109,7 +1108,7 @@
                 scroll.options = { 'top': -v.dtop};
                 scroll.element = WRAPPER_SEL;
             }else{
-                scroll.options = { 'scrollTop': v.dtop};
+                scroll.options = { 'scrollTop': v.dest.top};
                 scroll.element = 'html, body';
             }
 

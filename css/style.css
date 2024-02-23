@@ -1,0 +1,47 @@
+/* Ajoutez ces styles CSS à votre feuille de style */
+
+.carousel-inner .item {
+    /* animation: carousel-animation 1s infinite; */
+    /* animation-delay: 0.1s; */
+    animation-delay: -250ms;
+}
+
+/* .carousel-inner .item.active {
+    opacity: 1;
+} */
+
+@keyframes carousel-animation {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Ajoutez un délai d'animation différent pour chaque élément */
+/* .carousel-inner .item:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.carousel-inner .item:nth-child(2) {
+    animation-delay: 60ms;
+} */
+
+/* .carousel-inner .item:nth-child(3) {
+    animation-delay: 3s;
+} */
+
+#myCarousel ol {
+    position: absolute;
+    bottom: 0px;
+}
